@@ -1,0 +1,279 @@
+body, html {
+    border: 0;
+    padding: 0;
+    margin: 0;
+ }
+.nav{
+   
+   border: 2px solid #FFD645;
+    font-family: Staatliches, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    flex-flow: row nowrap;
+    font-size: 20px;
+    width: 450px;
+    margin:0;
+    
+}
+
+
+.nav a{
+    
+    display: block;
+    text-align: center;
+    justify-content: space-between;
+    
+    border-bottom: 2px solid transparent;
+  
+   
+    
+    
+}
+
+
+
+.nav:hover{
+    
+    background-color: black;
+    transition: background-color .5s ease-in-out;
+    
+
+}
+
+.nav a:hover{
+    
+    transition: border-bottom .7s ease-in-out;
+    border-bottom: 2px solid#fb5725;
+    color: #fb5725;
+}
+
+
+
+span{
+    color: #FF7246;
+
+}
+ a span{
+    text-decoration: underline;
+}
+a{
+    color: #FF7246;
+    text-decoration: none;
+ 
+    
+}
+
+ .page4B{
+    display: flex;
+    flex-flow: row nowrap;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 1.5;
+    color:  #FFD645;
+    
+  
+ }
+ .page4B p{
+    text-align: center;
+    align-self: center;
+ }
+
+ #page4A{
+    margin-top: 150pX;
+ }
+
+.page5{
+    display: flex;
+    flex-flow: row wrap;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 1.4;
+    color:  #FFD645;
+
+ }
+ 
+ #photo{
+     
+     position: absolute;
+  
+     width:100%;
+    
+     filter: blur(10);
+    filter: brightness(.4);
+z-index: -1;
+    
+  
+
+ }
+    
+ 
+  
+  
+ 
+
+@font-face{
+    font-family: "Staatliches-Regular.ttf";
+    font-style: normal;
+    src: url(assets/Staatliches-Regular.ttf);
+}
+
+.page1{
+    
+    display: flex;
+    flex-flow: column wrap;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:  #FFD645;
+    text-align: center;
+    margin-top: 40px;
+   
+}   
+body{
+    background: rgb(46,0,0);
+    background: linear-gradient(180deg, rgba(46,0,0,1) 6%, rgba(0,0,0,1) 90%);
+}
+
+
+
+
+
+h1{
+    
+    font-family: Staatliches;
+    color: #FF7246;
+    font-size: 60px;
+    text-align: center;
+   
+    
+}
+figcaption{
+    font-family: 'Courier New', Courier, monospace;
+}
+h2{
+   
+    font-family: Staatliches,'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:#FFD645;
+    font-size: 40px;
+    text-align: center;
+    
+   
+    
+}
+#title{
+    padding: 20px;
+    font-size: 100px;
+    text-align: center;
+    transition: .7s;
+    margin-top: 0%;
+    color: #FFD645;
+   
+}
+
+
+
+
+.page3{
+    display: flex;
+    flex-flow: column nowrap;
+    margin: 0;
+    justify-content: center;
+    align-content: space-between;
+    margin:2em;
+    padding-left:2em ;
+    padding-right:2em ;
+    
+    
+
+
+}
+.page3 p{
+    line-height: 2;
+}
+.page3 img{
+    align-self: center;
+    width: 400px;
+    
+}
+.bg{
+    background: url("../../assets/Images/stn.jpg");
+    margin: 0;
+    padding-bottom: 2em;
+    backdrop-filter: blur(10px);
+    backdrop-filter: brightness(.1);
+    
+    
+}
+
+
+
+
+
+
+    
+
+
+ol{
+    
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    line-height: 1.4;
+    font-size: 20px;
+    color:  #FFD645;
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 20%;
+}
+p {
+   
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   
+    font-size: 20px;
+    color:  #fadf7d;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+    line-height: 1.5;
+    
+}
+
+   
+   
+    
+    
+    
+  .page2{
+      margin-top: 10%;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: flex;
+  flex-flow: column wrap;
+  align-content: space-between;
+  
+    }
+    .page2 h2{
+        text-align: center;
+        padding: 30px;
+    }
+  figcaption{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 10px;
+    
+  }
+    
+    .col1{
+        display: flex;
+        flex-direction: row;
+        
+    }
+    .col2{
+        display: flex;
+        flex-direction: row;    
+    }
+
+
+
+
